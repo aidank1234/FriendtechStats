@@ -32,7 +32,7 @@ exports.handler = async (event) => {
 
         // Calculate the approximate number of blocks in one month
         const averageBlockTime = 2; // in seconds
-        const secondsInMonth = 14 * 24 * 60 * 60;
+        const secondsInMonth = 1 * 24 * 60 * 60;
         const blocksInMonth = Math.floor(secondsInMonth / averageBlockTime);
         console.log('Approximate blocks in one month:', blocksInMonth);
 
